@@ -50,6 +50,7 @@ public class DifferentPayloadPost {
     @Test(priority = 1)
     public void payloadExternaljsondata() throws FileNotFoundException {
         System.out.println("Payload External JSON");
+        System.out.println("Payload External JSON");
        File fl= new File(".\\body.json");
         FileInputStream fis = new FileInputStream(fl);
         JSONTokener jt= new JSONTokener(fis);

@@ -37,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.DifferentPayloadPost.payloadpost.executor": "Run",
     "TestNG.Unnamed.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/jayar/RestAssured"
   }
@@ -97,5 +98,16 @@
       <updated>1723639794766</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
