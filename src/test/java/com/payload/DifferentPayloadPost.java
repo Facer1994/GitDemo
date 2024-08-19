@@ -62,18 +62,19 @@ public class DifferentPayloadPost {
 
 
 
-//    @Test
-//    public void payloadpostusingjsonObj()
-//    {
-//        String coursearr[] ={"Python","Java"};
-//        HashMap data1 = new HashMap();
-//        data1.put("name", "scott");
-//        data1.put("location","USA");
-//        data1.put("phone","123456");
-//        data1.put("Courses",coursearr);
-//        given().contentType("application/json")
-//                .body(data1).when().post("http://localhost:3000/students").then().statusCode(201).body("name",equalTo("scott")).log().all();
-//
-//
-//    }
+    @Test
+    public void payloadpostusingjsonObj()
+    {
+        System.out.println("Data using hash map");
+        String coursearr[] ={"Python","Java"};
+        HashMap data1 = new HashMap();
+        data1.put("name", "scott");
+        data1.put("location","USA");
+        data1.put("phone","123456");
+        data1.put("Courses",coursearr);
+        given().contentType("application/json")
+                .body(data1).when().post("http://localhost:3000/students").then().statusCode(201).body("name",equalTo("scott")).log().all();
+
+
+    }
 }
